@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Chip Component 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Component Preview 1](https://github.com/NeeshuSharmaa/zepto-assign/assets/114111237/b88ae1bf-a7ce-4314-8763-b47223c4b5ac)
+![Component Preview 2](https://github.com/NeeshuSharmaa/zepto-assign/assets/114111237/e035f73f-80c9-4873-8427-a2d7e91144b1)
+![Component Preview 3](https://github.com/NeeshuSharmaa/zepto-assign/assets/114111237/b2e07b2a-fa91-4f70-8b38-62f4dc76132d)
+![Component Preview 4](https://github.com/NeeshuSharmaa/zepto-assign/assets/114111237/d0fc189d-57ea-4ddf-8435-6080cb0a75d2)
+![Component Preview 5](https://github.com/NeeshuSharmaa/zepto-assign/assets/114111237/5c518f2f-6894-4ad1-9fe6-54cfc6ab68f8)
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. When you click on the input field, a list of items will appear.
+2. As you type, the list should show only items that match what you're typing.
+3. Clicking on an item turn it into a chip at the top, and the input field adjust automatically.
+4. Once an item becomes a chip, it no longer is in the list.
+5. Each chip has an "X" icon. Clicking it removes the chip and adds the item back to the list.
+6. When the input is blank and the user presses backspace, the last chip gets highlighted and on again pressing backspace it gets deleted
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
