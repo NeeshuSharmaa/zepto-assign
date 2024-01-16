@@ -75,6 +75,17 @@ input:focus {
 .modal > li:hover {
   background-color: rgb(233, 233, 233);
 }
+li > div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.user-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
 
 .input-field > .highlight {
   background-color: rgb(96, 96, 246);
