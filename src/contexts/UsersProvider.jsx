@@ -18,8 +18,8 @@ export default function UsersProvider({ children }) {
 
   // functions
   const fetchUsers = async () => {
-    const res = await fetch("https://jsonplaceholder.typicode.com/users");
-    const users = await res.json();
+    const res = await fetch("https://dummyjson.com/users");
+    const { users } = await res.json();
     setUsers((prev) => ({
       ...prev,
       original: [...users],
