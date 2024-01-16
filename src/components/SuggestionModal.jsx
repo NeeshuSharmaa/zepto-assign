@@ -4,16 +4,22 @@ export default function SuggestionModal() {
   const { input, users, chooseUserHandler } = useUserContext();
 
   let filteredUsers = input
-    ? users.suggested.filter(({ name }) =>
-        name.toLowerCase().includes(input.toLowerCase())
+    ? users.suggested.filter(({ firstName, lastName }) =>
+        (firstName + lastName).toLowerCase().includes(input.toLowerCase())
       )
     : users?.suggested;
 
   return (
     <ul className="modal" anchor="input">
-      {filteredUsers?.map(({ id, name, email }) => (
+      {filteredUsers?.map(({ id, firstName, lastName, email, image }) => (
         <li key={id} onClick={() => chooseUserHandler(id)}>
-          <span>{name}</span>
+          <div>
+            <img src={image} alt={firstName} className="user-img" />
+            <span>
+              {firstName} {lastName}
+            </span>
+          </div>
+
           <span>{email}</span>
         </li>
       ))}
